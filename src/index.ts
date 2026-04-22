@@ -22,6 +22,7 @@ import {rule as ruleNoTemplateArrow} from './rules/no-template-arrow.js';
 import {rule as ruleNoTemplateBind} from './rules/no-template-bind.js';
 import {rule as ruleNoTemplateMap} from './rules/no-template-map.js';
 import {rule as ruleNoThisAssign} from './rules/no-this-assign-in-render.js';
+import {rule as ruleNoUnusedPrivateClassMembersExceptReactiveControllers} from './rules/no-unused-private-class-members-except-reactive-controllers.js';
 import {rule as ruleNoUselessTemplateLiterals} from './rules/no-useless-template-literals.js';
 import {rule as ruleNoValueAttribute} from './rules/no-value-attribute.js';
 import {rule as rulePreferNothing} from './rules/prefer-nothing.js';
@@ -48,6 +49,8 @@ export const rules: Record<string, Rule.RuleModule> = {
   'no-template-bind': ruleNoTemplateBind,
   'no-template-map': ruleNoTemplateMap,
   'no-this-assign-in-render': ruleNoThisAssign,
+  'no-unused-private-class-members-except-reactive-controllers':
+    ruleNoUnusedPrivateClassMembersExceptReactiveControllers,
   'no-useless-template-literals': ruleNoUselessTemplateLiterals,
   'no-value-attribute': ruleNoValueAttribute,
   'prefer-nothing': rulePreferNothing,

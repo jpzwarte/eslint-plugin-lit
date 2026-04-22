@@ -24,6 +24,7 @@ export const configFactory = (plugin: ESLint.Plugin): Linter.FlatConfig => ({
     'lit/no-template-bind': 'error',
     'lit/no-template-map': 'error',
     'lit/no-this-assign-in-render': 'error',
+    'lit/no-unused-private-class-members-except-reactive-controllers': 'error',
     'lit/no-useless-template-literals': 'error',
     'lit/no-value-attribute': 'error',
     'lit/prefer-nothing': 'error',
